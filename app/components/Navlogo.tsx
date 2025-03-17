@@ -5,7 +5,7 @@ export default function Navlogo() {
     return (
             <div className="">
             <Link href="/">
-                <Image src={tGreenslogo} alt="NCMI logo" width={100} height={100} className="w-20 h-20" />
+                <Image src={tGreenslogo} alt="Thika Greens Golf logo" width={100} height={100} className="w-18 h-18" />
             </Link>
             </div>
     )

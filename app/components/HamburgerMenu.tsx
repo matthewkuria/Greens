@@ -58,17 +58,22 @@ export default function HamburgerMenu() {
           <Link onClick={closeMenu} href="/about-us" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             About Us
           </Link>
-          <Link onClick={closeMenu} href="/ministries" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Ministries
+          <Link onClick={closeMenu} href="/restaurant" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Restaurant
           </Link>
-          <Link onClick={closeMenu} href="/media" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Media
+          <Link onClick={closeMenu} href="/accomodation" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Accomodation
           </Link>
-          <Link onClick={closeMenu} href="/events" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Events
+          <Link onClick={closeMenu} href="/amenities" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Amenities
           </Link>
-          <Link onClick={closeMenu} href="/support" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Support or Partner
+          <Link onClick={closeMenu} href="/bookings" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Bookings
+          </Link>
+           <Link onClick={closeMenu} href="/real-estate" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Real Estate
+          </Link> <Link onClick={closeMenu} href="/blog" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Blogs
           </Link>
           <Link onClick={closeMenu} href="/contacts" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             Contact Us

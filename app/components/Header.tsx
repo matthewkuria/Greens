@@ -8,7 +8,7 @@ export default function Header() {
   
     return (
         <>
-            <nav className=" relative py-2 px-4 flex items-center justify-between shadow-md ">
+            <nav className="bg-transparent  absolute top-0 right-0 left-0 py-2 px-4 flex items-center justify-between z-50">
                <Navlogo />
                 <Navlinks />                
                 <HamburgerMenu  />
